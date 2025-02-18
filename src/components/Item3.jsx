@@ -3,7 +3,7 @@ const Blocksc = (props) => {
     return (
         <div>
                     <div className="w-120 h-67 rounded-xl shadow-lg p-4 ">
-                                <h1 className="flex font-bold">Which Programming language used for</h1>
+                                <h1 className="flex font-bold">{props.question}</h1>
                                 <div className="w-full h-10 bg-green-300 rounded-md mt-3 pt-2">
                                 <span className="ml-2 mt-5 text-start">{props.item1}</span>
                                 </div>
